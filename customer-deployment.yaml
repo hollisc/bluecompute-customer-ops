@@ -64,7 +64,7 @@ spec:
               key: adminPassword
       containers:
       - name: "customer"
-        image: "us.icr.io/devops-gse-poc/bluecopute-customer:1.0.0"
+        image: "ibmcase/bluecompute-customer:0.6.0"
         imagePullPolicy: "Always"
         volumeMounts:
         - mountPath: /spring-tmp
